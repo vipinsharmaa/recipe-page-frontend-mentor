@@ -17,9 +17,9 @@ in those cases you can use the static font files for Outfit:
   static/Outfit-Light.ttf
   static/Outfit-Regular.ttf
   static/Outfit-Medium.ttf
-  static/Outfit-SemiBold.ttf
-  static/Outfit-Bold.ttf
-  static/Outfit-ExtraBold.ttf
+  static/Outfit-Semib.ttf
+  static/Outfit-b.ttf
+  static/Outfit-Extrab.ttf
   static/Outfit-Black.ttf
 
 Get started

@@ -1,0 +1,138 @@
+/* CSS Reset */
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: disc;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #111111;
+}
+
+
+/*  My CSS */
+
+body {
+    background-color: #f3e5d8;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+#wrapper {
+    margin-top: 2em;
+    /* width: 100vw; */
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3em;
+    border-radius: 20px;
+}
+
+.hero-img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+
+}
+
+h1 {
+    font-weight: 500;
+    color: #302f2d;
+    font-family: 'Young Serif', serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: 'Young Serif', serif;
+}
+
+h3 {
+    font-weight: bold;
+    color: #742d4b;
+}
+
+ul li::marker {
+    color: #742d4b;
+}
+
+ol li,
+ul li {
+    margin-bottom: 1em;
+}
+
+section {
+    border-bottom: 2px solid hsla(30, 18%, 87%, 0.5);
+    padding: 0.4em;
+
+}
+
+.preparation {
+    background-color: #fff7fc;
+    padding: 0.5em;
+}
+
+section:nth-of-type(1),
+section:nth-of-type(4),
+section:nth-of-type(5) {
+    border-bottom: none;
+}
+
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 0.5em;
+    border-bottom: 1px solid hsla(30, 18%, 87%, 0.8);
+
+}
+
+.qty {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 200px;
+
+}
+
+.attribution {
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+
+/* Media Queries*/
+@media (max-width: 375px) {
+    #container {
+        width: 100%;
+
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+}
