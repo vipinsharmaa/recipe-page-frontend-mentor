@@ -30,22 +30,22 @@ body {
 
 #wrapper {
     margin-top: 2em;
-    /* width: 100vw; */
-    padding: 1em;
+    padding: 1em 6em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #container {
-    max-width: 500px;
+    width: 60%;
     background-color: hsl(0, 0%, 100%);
-    padding: 3em;
+    padding: 2em;
     border-radius: 20px;
 }
 
 .hero-img {
-    max-width: 500px;
+    width: 100%;
+    /* max-width: 500px; */
     border-radius: 10px;
 }
 
@@ -101,22 +101,26 @@ section:nth-of-type(5) {
 
 table {
     width: 100%;
+    font-size: 0.9rem;
+
 }
 
 table td {
     padding: 0.5em;
     border-bottom: 1px solid hsla(30, 18%, 87%, 0.8);
+    padding-bottom: 0.8rem;
 
 }
 
 .qty {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
-    padding-left: 200px;
+    text-align: right;
 
 }
 
 .attribution {
+    font-size: 0.9em;
     text-align: center;
     padding: 25px;
 }
@@ -125,14 +129,71 @@ table td {
 
 
 /* Media Queries*/
-@media (max-width: 375px) {
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
     #container {
         width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
 
+    .preparation {
+        padding-left: 3em;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+    .hero h1 {
+        padding-left: 1em;
+    }
+
+    .hero p {
+        padding: 0 2em;
     }
 
     .hero-img {
+        margin: 0;
         width: 100%;
+        border-radius: 0;
     }
 
+    section {
+        padding: 1em 2em;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5rem;
+
+    }
+
+    ul li,
+    ol li {
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+
+    .qty {
+        padding-left: 0;
+
+    }
+
+    table td {
+        padding: 0.3em;
+
+    }
 }
