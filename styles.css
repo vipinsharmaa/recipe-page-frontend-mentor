@@ -129,7 +129,8 @@ table td {
 
 
 /* Media Queries*/
-@media (max-width: 500px) {
+
+@media (max-width: 700px) {
     body {
         margin: 0;
     }
