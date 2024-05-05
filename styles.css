@@ -67,8 +67,10 @@ h2 {
     font-family: 'Young Serif', serif;
 }
 
-h3 {
+.preparation h2 {
+    font-size: 1.0rem;
     font-weight: bold;
+    font-family: 'Outfit', sans-serif;
     color: #742d4b;
 }
 
